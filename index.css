@@ -17,6 +17,70 @@
   }
 
 
+ /*Mobile Screen*/
+ /*header*/
+ #header {
+    display: block;
+    justify-content: space-between;
+    font-family: "PT Serif", cursive
+  }
+
+  #sub-header div {
+      width: 420px;
+      word-spacing: 4px;
+      font-family: Poppins, cursive;
+      font-weight: 100;
+  }
+
+
+  /*main */
+  #wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    grid-gap: 20px;
+  }
+
+  #wrapper h2 {
+    font-family: Poppins, cursive;
+  }
+
+  #wrapper p {
+    font-family: "PT Serif", cursive;
+    font-size: small;
+    transform: rotate(-270deg);
+    transform-origin: 0;
+    position: relative;
+    top: -339px;
+    left: 195px;
+  }
+
+  /*images*/
+  .size {
+    height: 250px;
+    width: 180px;
+    object-fit: cover;
+    border: #333 1px solid;
+  }
+
+  .mobile {
+    margin-top: 50px;
+  }
+
+  #adjust {
+    object-position: -120px 0;
+  }
+  
+  .flip{
+    transform: rotateY(180deg);
+  }
+  
+   .footer {
+        text-align: center;
+        opacity: 0.75;
+        color: #776f6f;
+    }
+
 
 
 
