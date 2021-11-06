@@ -2,5 +2,5 @@
 
 ## An implementation of css grid layout
 
-![Screenshot](./images/screenshot_desktop)
-![Screenshot](./images/screenshot_mobile)
+![Screenshot](./images/screenshot_desktop.png)
+![Screenshot](./images/screenshot_mobile.png)
